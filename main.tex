@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt,openany]{scrreprt}
+\usepackage[
+	left=2.5cm, 
+	right=4cm, 
+    top=2.5cm, 
+    bottom=2.8cm,
+    footskip=10mm,
+    headsep=5mm]{geometry}
+
+\usepackage[
+	pdftitle={Linguistics Music Interface},
+    pdfsubject={Module Paper - B.A. Linguistics - Bielefeld University},
+    pdfauthor={Fabian Wohlgemuth},
+    pdfkeywords={B.A., Module Paper, Bachelor, Linguistics, Music, Singing, Universität Bielefeld},
+    %pdftex=true,
+    colorlinks=true,
+    citecolor=black,
+    linkcolor=black,
+    menucolor=black,
+    urlcolor=black
+]{hyperref}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{graphicx,subfigure}
+\graphicspath{{images/}}
+%\usepackage{fancyhdr}
+\usepackage{lmodern}
+\usepackage{color}
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage{transparent}
+\usepackage[ngerman,american]{babel}
+\usepackage{lipsum}
+\usepackage{datetime2}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{calc}
+\usepackage{subfig}
+\usepackage{csquotes}
+\MakeOuterQuote{"} 
+
+%%%
+\input{pgfutil-common.tex}
+\usepackage{pgfkeys,pgfmath}  
+\usepackage{siunitx}
+
+\newcommand{\printpercent}[3][2]{%  
+    \pgfmathdivide{#2}{#3}% 
+    \pgfmathmultiply{\pgfmathresult}{100}%
+    \SI[round-mode=places,round-precision=#1]{\pgfmathresult}{\percent}
+}
+%%%
+
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
+\hypersetup{final}
+\begin{document}
+
+\pagestyle{empty}
+\include{formalia/title}
+
+\pagenumbering{Roman}
+
+%\addcontentsline{toc}{section}{Danksagung}\setcounter{page}{2}\include{formalia/danksagung}
+%\addcontentsline{toc}{section}{Abstract}\include{formalia/abstract}
+%\addcontentsline{toc}{section}{Table of Contents}
+\newpage
+\tableofcontents
+
+\newpage
+\let\LaTeXStandardClearpage\clearpage
+\let\clearpage\relax
+
+%\begin{spacing}{1.1}
+%\addcontentsline{toc}{section}{List of Figures/Tables}\listoffigures \listoftables
+%\include{formalia/abbreviations}
+%\end{spacing}
+
+%\addtocontents{toc}{\vspace{\normalbaselineskip}}
+%\addtocontents{toc}{\hrule}
+%\addtocontents{toc}{\vspace{\normalbaselineskip}}
+\let\clearpage\LaTeXStandardClearpage
+\newpage
+\pagenumbering{arabic}
+
+\newpage
+\include{includes/introduction}
+\include{includes/theory}
+\include{includes/conclusion}
+
+%% ---------------------------------------%%
+
+%\pagestyle{plain}
+
+\addtocontents{toc}{\vspace{\normalbaselineskip}}
+\addtocontents{toc}{\hrule}
+\addtocontents{toc}{\vspace{\normalbaselineskip}}
+
+\pagenumbering{Roman}
+\bibliographystyle{apalike}
+\begin{doublespace}
+\bibliography{mp_balins1.bib}
+\end{doublespace}
+
+\clearpage
+\addcontentsline{toc}{chapter}{Declaration of Authorship}
+\begin{doublespace}
+\include{formalia/declaration}
+\end{doublespace}
+
+%\addcontentsline{toc}{chapter}{Appendix}
+%\include{formalia/appendix}
+
+\end{document}
