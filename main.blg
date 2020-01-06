@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: formalia/title.aux
+A level-1 auxiliary file: includes/introduction.aux
+A level-1 auxiliary file: includes/theory.aux
+A level-1 auxiliary file: includes/conclusion.aux
+The style file: apalike.bst
+A level-1 auxiliary file: formalia/declaration.aux
+Database file #1: mp_balins2.bib
+Warning--empty journal in bauer2003introducing
+Warning--empty journal in cruse2011meaning
+Warning--empty publisher in fox2000prosodic
+Warning--empty journal in mesaros2012singing
+Warning--empty publisher in schon2018music
+Warning--empty publisher in sundberg2018phonetics
+You've used 33 entries,
+            1935 wiz_defined-function locations,
+            675 strings with 8620 characters,
+and the built_in function-call counts, 11405 in all, are:
+= -- 1125
+> -- 343
+< -- 32
++ -- 124
+- -- 106
+* -- 895
+:= -- 2006
+add.period$ -- 97
+call.type$ -- 33
+change.case$ -- 213
+chr.to.int$ -- 33
+cite$ -- 39
+duplicate$ -- 488
+empty$ -- 871
+format.name$ -- 151
+if$ -- 2230
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 36
+newline$ -- 163
+num.names$ -- 99
+pop$ -- 192
+preamble$ -- 1
+purify$ -- 218
+quote$ -- 0
+skip$ -- 372
+stack$ -- 0
+substring$ -- 772
+swap$ -- 50
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 188
+warning$ -- 6
+while$ -- 101
+width$ -- 0
+write$ -- 415
+(There were 6 warnings)

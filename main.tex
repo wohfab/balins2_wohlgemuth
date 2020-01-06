@@ -8,11 +8,6 @@
     headsep=5mm]{geometry}
 
 \usepackage[
-	pdftitle={Phrasierung},
-    pdfsubject={Hausarbeit - B.A. Linguistik - Universität Bielefeld},
-    pdfauthor={Fabian Wohlgemuth},
-    pdfkeywords={B.A., Hausarbeit, Bachelor, Linguistik, Musik, Singen, Chor, Universität Bielefeld},
-    %pdftex=true,
     colorlinks=true,
     citecolor=black,
     linkcolor=black,
@@ -20,15 +15,15 @@
     urlcolor=black
 ]{hyperref}
 
+\usepackage{scrhack}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\usepackage{graphicx,subfigure}
-\graphicspath{{images/}}
+%\graphicspath{{images/}}
 %\usepackage{fancyhdr}
 \usepackage{lmodern}
 \usepackage{color}
-\usepackage[table,dvipsnames]{xcolor}
+%\usepackage[table,dvipsnames]{xcolor}
 \usepackage{transparent}
 \usepackage[ngerman,american]{babel}
 \usepackage{lipsum}
@@ -40,23 +35,11 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{calc}
-\usepackage{subfig}
+%\usepackage{subfig}
 \usepackage{csquotes}
 \MakeOuterQuote{"} 
 
-%%%
-\input{pgfutil-common.tex}
-\usepackage{pgfkeys,pgfmath}  
-\usepackage{siunitx}
-
-\newcommand{\printpercent}[3][2]{%  
-    \pgfmathdivide{#2}{#3}% 
-    \pgfmathmultiply{\pgfmathresult}{100}%
-    \SI[round-mode=places,round-precision=#1]{\pgfmathresult}{\percent}
-}
-%%%
-
-\usepackage[nottoc,notlot,notlof]{tocbibind}
+%\usepackage[nottoc,notlot,notlof]{tocbibind}
 
 \hypersetup{final}
 \begin{document}
