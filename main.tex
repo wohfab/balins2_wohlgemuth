@@ -25,9 +25,10 @@
 \usepackage{color}
 %\usepackage[table,dvipsnames]{xcolor}
 \usepackage{transparent}
-\usepackage[ngerman,american]{babel}
+\usepackage[ngerman]{babel}
 \usepackage{lipsum}
-\usepackage{datetime2}
+\usepackage[useregional]{datetime2}
+\DTMlangsetup[de-DE]{monthyearsep={\space}}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{tikz}
@@ -72,9 +73,12 @@
 \pagenumbering{arabic}
 
 \newpage
-\include{includes/introduction}
-\include{includes/theory}
-\include{includes/conclusion}
+\include{includes/einleitung}
+\include{includes/daten}
+\include{includes/methodik}
+\include{includes/ergebnisse}
+\include{includes/diskussion}
+\include{includes/fazit}
 
 %% ---------------------------------------%%
 
@@ -84,12 +88,15 @@
 \addtocontents{toc}{\hrule}
 \addtocontents{toc}{\vspace{\normalbaselineskip}}
 
+\renewcommand{\bibname}{Literaturverzeichnis}
 \pagenumbering{Roman}
 \bibliographystyle{apalike}
 \begin{doublespace}
 \bibliography{mp_balins2.bib}
 \end{doublespace}
 
+\let\clearpage\LaTeXStandardClearpage
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
 \clearpage
 \addcontentsline{toc}{chapter}{Eigenständigkeitserklärung}
 \begin{doublespace}

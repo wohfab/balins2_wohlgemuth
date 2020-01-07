@@ -111,9 +111,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/american.ldf
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/american.ldf
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -128,11 +125,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-german/datetime2-german.ldf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-german/datetime2-german.ldf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-german/datetime2-german.ldf
@@ -264,12 +256,18 @@ INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/ma
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux
 OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux
@@ -347,30 +345,45 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.toc
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.toc
 OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.toc
-OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux
-INPUT includes/introduction.tex
-INPUT includes/introduction.tex
+OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux
+INPUT includes/einleitung.tex
+INPUT includes/einleitung.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
-OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux
-INPUT includes/theory.tex
-INPUT includes/theory.tex
-OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux
-INPUT includes/conclusion.tex
-INPUT includes/conclusion.tex
-INPUT main.bbl
-INPUT main.bbl
+OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux
+INPUT includes/daten.tex
+INPUT includes/daten.tex
+OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux
+INPUT includes/methodik.tex
+INPUT includes/methodik.tex
+OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux
+INPUT includes/ergebnisse.tex
+INPUT includes/ergebnisse.tex
+OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux
+INPUT includes/diskussion.tex
+INPUT includes/diskussion.tex
+OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux
+INPUT includes/fazit.tex
+INPUT includes/fazit.tex
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.bbl
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.bbl
 OUTPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux
 INPUT formalia/declaration.tex
 INPUT formalia/declaration.tex
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux
-INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux
+INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux
 INPUT /Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.out

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.6)  7 JAN 2020 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.6)  7 JAN 2020 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,13 +497,6 @@ File: babel.def 2019/05/04 3.31 Babel common definitions
 \bbl@dirlevel=\count196
 )
 Package babel Info: Making " an active character on input line 121.
-)) (/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/american.ldf
-Language: american 2017/06/06 v3.3r English support from the babel system
- (/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
 ))) (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -520,18 +513,21 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 )
 \XKV@depth=\count197
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
-File: datetime2-en-US.ldf 2016/03/09 v1.04 (NLCT)
- (/usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
-File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-german/datetime2-german.ldf
 File: datetime2-german.ldf 2017/11/13 v2.1
  (/usr/local/texlive/2019/texmf-dist/tex/latex/datetime2-german/datetime2-german-ascii.ldf
 File: datetime2-german-ascii.ldf 2017/11/13 v2.1
-))) (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+)))
+
+Package datetime2 Warning: Region `de-DE' has ignored 
+(datetime2)                the following settings:
+(datetime2)                monthyearsep={ }
+ on input line 31.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 32.
+Package scrhack Info: loading setspace hack on input line 33.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/setspace.hak
 File: setspace.hak 2019/02/01 v3.26b KOMA-Script package (hacking package setspace)
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -724,8 +720,7 @@ File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@matrix@numberofcolumns=\count283
 )
 \tikz@expandcount=\count284
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
 ))) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -735,7 +730,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks33
 \@floatcapt=\box60
 )
-Package scrhack Info: loading float hack on input line 35.
+Package scrhack Info: loading float hack on input line 36.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2019/02/01 v3.26b KOMA-Script package (hacking package float)
 Package scrhack Info: redefining \newfloat on input line 163.
@@ -831,29 +826,29 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 ))
 Package csquotes Info: Allocating character ".
-Package hyperref Info: Option `final' set `true' on input line 44.
+Package hyperref Info: Option `final' set `true' on input line 45.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'american'.
- (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux))
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 46.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -892,7 +887,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring ON on input line 45.
+Package hyperref Info: Link coloring ON on input line 46.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -900,9 +895,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
  (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.out) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -913,7 +908,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 45.
+(scrreprt)           before \begin{document} on input line 46.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
@@ -946,7 +941,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
-Package csquotes Info: Redefining character " on input line 45.
+Package csquotes Info: Redefining character " on input line 46.
 \openout2 = `formalia/title.aux'.
 
  (./formalia/title.tex
@@ -1011,12 +1006,25 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 36.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+
+Package datetime2 Warning: Region `german-ascii' has ignored 
+(datetime2)                the following settings:
+(datetime2)                showdayofmonth=false
+ on input line 43.
+
+
+Package datetime2 Warning: Region `german-ascii' has ignored 
+(datetime2)                the following settings:
+(datetime2)                showdayofmonth=true
+ on input line 45.
+
+[1
 
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 56.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 57.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.toc)
@@ -1028,43 +1036,75 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ]
-\openout2 = `includes/introduction.aux'.
+\openout2 = `includes/einleitung.aux'.
 
- (./includes/introduction.tex
+ (./includes/einleitung.tex
 chapter 1.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 \include{includes/introduction}
-                                     [1
+l.76 \include{includes/einleitung}
+                                   [1
 
 
 ]
-\openout2 = `includes/theory.aux'.
+\openout2 = `includes/daten.aux'.
 
- (./includes/theory.tex
+ (./includes/daten.tex
 chapter 2.
 ) [2
 
 
 
 ]
-\openout2 = `includes/conclusion.aux'.
+\openout2 = `includes/methodik.aux'.
 
- (./includes/conclusion.tex
+ (./includes/methodik.tex
 chapter 3.
 ) [3
 
 
 
-] (./main.bblpdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
+]
+\openout2 = `includes/ergebnisse.aux'.
+
+ (./includes/ergebnisse.tex
+chapter 4.
+) [4
+
+
+
+]
+\openout2 = `includes/diskussion.aux'.
+
+ (./includes/diskussion.tex
+chapter 5.
+) [5
+
+
+
+]
+\openout2 = `includes/fazit.aux'.
+
+ (./includes/fazit.tex
+chapter 6.
+) [6
+
+
+
+] (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 
-      [1
+l.100 \clearpage
+                 [1
 
 
-] [2] [3]) [4]
+]
 \openout2 = `formalia/declaration.aux'.
 
  (./formalia/declaration.tex
@@ -1100,33 +1140,33 @@ l.52
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [5
+ [2
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
- (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/introduction.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/theory.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/conclusion.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+ (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.aux (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/title.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/einleitung.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/daten.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/methodik.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/ergebnisse.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/diskussion.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/includes/fazit.aux) (/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/formalia/declaration.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 33430 strings out of 492616
- 652200 string characters out of 6129482
- 907241 words of memory out of 5000000
- 36802 multiletter control sequences out of 15000+600000
+ 33275 strings out of 492616
+ 649190 string characters out of 6129482
+ 901264 words of memory out of 5000000
+ 36671 multiletter control sequences out of 15000+600000
  582296 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,10n,77p,9162b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,10n,77p,9162b,549s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.pdf" (10 pages, 147903 bytes).
+Output written on "/Volumes/GoogleDrive/Shared drives/wohfab/git/balins2_wohlgemuth/export/main.pdf" (10 pages, 132710 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
