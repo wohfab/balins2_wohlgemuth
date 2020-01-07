@@ -7,14 +7,6 @@
     footskip=10mm,
     headsep=5mm]{geometry}
 
-\usepackage[
-    colorlinks=true,
-    citecolor=black,
-    linkcolor=black,
-    menucolor=black,
-    urlcolor=black
-]{hyperref}
-
 \usepackage{scrhack}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -40,8 +32,15 @@
 \usepackage{csquotes}
 \MakeOuterQuote{"} 
 
-%\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 
+\usepackage[
+    colorlinks=true,
+    citecolor=black,
+    linkcolor=black,
+    menucolor=black,
+    urlcolor=black
+]{hyperref}
 \hypersetup{final}
 \begin{document}
 
@@ -88,6 +87,7 @@
 \addtocontents{toc}{\hrule}
 \addtocontents{toc}{\vspace{\normalbaselineskip}}
 
+\nocite{*}
 \renewcommand{\bibname}{Literaturverzeichnis}
 \pagenumbering{Roman}
 \bibliographystyle{apalike}
@@ -95,9 +95,8 @@
 \bibliography{mp_balins2.bib}
 \end{doublespace}
 
-\let\clearpage\LaTeXStandardClearpage
-\addcontentsline{toc}{chapter}{Literaturverzeichnis}
-\clearpage
+\cleardoublepage
+\phantomsection
 \addcontentsline{toc}{chapter}{Eigenständigkeitserklärung}
 \begin{doublespace}
 \include{formalia/declaration}
