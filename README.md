@@ -7,3 +7,5 @@ Hausarbeit von [Fabian Wohlgemuth](https://www.fabianwohlgemuth.de) im Rahmen de
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/wohfab/balins2_wohlgemuth/raw/master/export/main.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+[embed]https://github.com/wohfab/balins2_wohlgemuth/raw/master/export/main.pdf[/embed]
