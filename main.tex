@@ -25,6 +25,7 @@
 \onehalfspacing
 \usepackage{tikz}
 \usepackage{float}
+\usepackage{pdfpages}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{calc}
@@ -95,6 +96,8 @@
 \bibliography{mp_balins2.bib}
 \end{doublespace}
 
+\include{formalia/acknowledgements}
+ 
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Eigenständigkeitserklärung}
@@ -103,6 +106,6 @@
 \end{doublespace}
 
 %\addcontentsline{toc}{chapter}{Appendix}
-%\include{formalia/appendix}
+\include{formalia/appendix}
 
 \end{document}
